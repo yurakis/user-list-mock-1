@@ -118,7 +118,7 @@
     window.parent.postMessage({
       type: 'GuestDetails',
       value: mockGuests[index],
-    }, 'http://app.apaleo.local:4200/');
+    }, '*');
   }
 </script>
 <script onload="broadcastIframeHeight()" src="https://cdn.apaleo.com/scripts/broadcast-iframe-resize.min.js" defer></script>
